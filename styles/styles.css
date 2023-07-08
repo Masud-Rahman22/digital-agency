@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-container{
+    display: flex;
+    background-color: grey;
+    justify-content: space-around;
+    height: 10vh;
+}
+nav img{
+    padding: 10px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+}
+.nav-listing{
+    margin-right: 20px;
+    margin-top: 25px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
