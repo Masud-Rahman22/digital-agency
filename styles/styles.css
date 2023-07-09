@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+/* navbar styles */
 .nav-container{
     display: flex;
     background-color: grey;
@@ -23,4 +24,122 @@ nav img{
 nav ul a{
     text-decoration: none;
     color: black;
+}
+/* banner styles */ 
+.banner-section{
+    height: 100vh;
+    background-image: url("../images/background.jpg"),linear-gradient(rgb(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.banner-container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.banner-title{
+    font-size: 60px;
+}
+.banner-container span{
+    color: red;
+}
+.banner-description{
+    margin: 0 80px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.btn-2{
+    background-color: white;
+    color: black;
+    border: 0;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.service-info span{
+    color: red;
+}
+.service-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../images/footer-bg.png"),linear-gradient(black,rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    height: 100vh;
+
+}
+.service-btn{
+    background-color: white;
+    color: grey;
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-bottom: 0;
+}
+.service-heading{
+    color: white;
+    font-size: 40px;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service-description{
+    color: white;
+    /* width: 50%; */
+    font-size: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.service-listing{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.working-service{
+    /* border: 1px solid white; */
+    text-align: center;
+    width: 200px;
+    height: 170px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.service-img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.working-service-group-1{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.working-service-group-2{
+    display: flex;
+    gap: 10px;
+}
+.working-service-group-3{
+    display: block;
+    margin-right: 90px;
+    margin-left: 100px;
+}
+.author-section button{
+    color: red;
+}
+.author-section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
 }
