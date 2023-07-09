@@ -143,3 +143,26 @@ nav ul a{
     align-items: center;
     justify-content: space-around;
 }
+.author-info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 1px solid red;
+    margin-left: 40px;
+    padding: 30px;
+    /* padding-right: 150px;
+    margin-left: 100px; */
+}
+.author-personal-info{
+    color: white;
+}
+.author-info img{
+    border-radius: 100px;
+    width: 60px;
+}
+.author-info h6{
+    font-size: 15px;
+}
+.author-info p{
+    font-size: 13px;
+}
